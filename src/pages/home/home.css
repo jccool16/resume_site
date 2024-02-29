@@ -1,0 +1,28 @@
+.Home {
+    background-color: #254441;
+    min-height: 100vh;
+    text-align: center;
+}
+  
+.Home-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Home-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FF6A55;
+    margin: 0;
+}
+.Home-name .header {
+    font-size: calc(25px + 2vmin);
+    font-weight: 500;
+}
+
+.Home-name .sub {
+    font-size: calc(10px + 2vmin);
+    font-weight: 100;
+}
+  
