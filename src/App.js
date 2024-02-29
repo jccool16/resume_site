@@ -1,22 +1,33 @@
-import logo from './logo.svg';
+import logo from './maxwell-cat.gif';
 import './App.css';
+import {SocialIcon} from 'react-social-icons';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="App" >
+      <header className="App-header" style={{marginLeft: 30}}>
+
+        <img src={logo} className="Spinning-cat" alt="maxwell" style={{alignSelf: "center"}}/>
+
+        <p style={{fontSize: 40, margin: 0}}>
+          Jackson Franke
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <p style={{fontSize: 20, fontWeight: 100, whiteSpace: "pre-wrap"}}>
+          BS in Computer Systems Engineering<br/>
+          Arizona State University
+        </p>
+
+        <p style={{fontSize: 20}}>
+        </p>
+
+        <p>
+          <SocialIcon target="_blank" url="https://www.linkedin.com/in/jake-franke-9195b01ba"/>
+          &nbsp;
+          <SocialIcon target="_blank" url="https://github.com/jccool16"/>
+          &nbsp;
+          <SocialIcon target="_blank" href="https://www.discordapp.com/users/510270107604484128" url="https://www.discord.com"/>
+        </p>
       </header>
     </div>
   );
