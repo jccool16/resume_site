@@ -37,3 +37,8 @@
     transform: rotate(360deg);
   }
 }
+
+.App-margin{
+  background-color: #FF6A55;
+  height: 5px;
+}

@@ -1,0 +1,10 @@
+.Navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #FF6A55;
+    color: #254441;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
