@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './home.css'
 import {SocialIcon} from 'react-social-icons';
 import logo from './maxwell-cat.gif';
@@ -7,6 +6,7 @@ import logo from './maxwell-cat.gif';
 const Home = props => {
     return (
     <div className="Home" >
+        &nbsp;
         <header className="Home-header">
           <img src={logo} alt="maxwell" style={{alignSelf: "center"}}/>
         </header>
@@ -28,7 +28,5 @@ const Home = props => {
     </div>
     )
 }
-
-Home.propTypes = {}
 
 export default Home
